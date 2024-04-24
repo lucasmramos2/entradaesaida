@@ -1,0 +1,5 @@
+def imprime_nome_idade_cidade(nome,idade,cidade):
+    print('nome: ' + nome,'idade: ' + idade,'cidade: ' + cidade,sep=' - ',end='!')
+    return
+
+imprime_nome_idade_cidade('Alice','25','São Paulo')
