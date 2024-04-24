@@ -1,0 +1,17 @@
+def faz_calculo(n1,n2,o):
+    if o == '+':
+        return n1+n2
+
+    elif o == '-':
+        return n1-n2
+
+    elif o == '*':
+        return n1*n2
+
+    elif o == '/':
+        return n1/n2
+
+n1 = float(input("Digite o primeiro número"))
+n2 = float(input("Digite o segundo número"))
+o = input("Diite a operação desejada")
+print(faz_calculo(n1,n2,o))
