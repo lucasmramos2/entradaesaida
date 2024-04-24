@@ -1,0 +1,11 @@
+def retorna_nomes():
+    lista = []
+    nome = ""
+    while nome != 'sair':
+        nome = input("Digite um nome (ou 'sair' para terminar): ")
+        if nome != 'sair':
+            lista.append(nome)
+    return lista
+
+nomes = retorna_nomes()
+print("Todos os nomes digitados:", ", ".join(nomes))
