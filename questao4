@@ -1,0 +1,5 @@
+def retorna_f(c):
+    return c * 9/5 + 32
+
+c = float(input("Digite a temperatura em Celsius: "))
+print("Em Fahrenheit:", retorna_f(c))
